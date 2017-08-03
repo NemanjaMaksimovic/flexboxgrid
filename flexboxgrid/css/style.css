@@ -1,0 +1,250 @@
+/*GLOBAL STYLE GOES HERE*/
+body{
+    color: darkslategray;
+    font-family:'open-sans' sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    
+    
+    
+}
+.container{
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+    
+.primary-text{
+    
+    color: #8fc49a;
+}
+
+/*GLOBAL STYLE GOES HERE*/
+
+/*HEADER STYLE GOES HERE*/
+#main-header{
+    border-bottom: 2px solid #8fc49a;
+
+}
+
+#main-navigation ul{
+    
+    margin-top: 25px;
+    
+}
+#main-navigation li{
+    padding-right:20px;
+    display: inline;
+    
+}
+
+#main-navigation a{
+    text-decoration: none;
+    color: #888;
+}
+
+#main-navigation li.current a, #main-navigation li a:hover{
+    color: #8fc49a;
+    border-bottom: 3px solid #8fc49a;
+    padding-bottom: 2px;
+}
+
+/*HEADER STYLE GOES HERE*/
+
+/*SUBHEAD STYLE GOES HERE*/
+
+section#subhead{
+    color: #fff;
+    background:#333;
+    border-bottom: 3px solid #8fc49a;
+}
+
+/*SUBHEAD STYLE GOES HERE*/
+
+/*SHOWCASE STYLE GOES HERE*/
+#showcase{
+    background:url(../images/showcase.jpg)no-repeat center center;
+    border-bottom: 3px solid #8fc49a;;
+    margin-bottom: 30px;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 40px;
+
+}
+
+#showcase p{
+    color: #fff;
+
+}
+
+#showcase .showcase-text{
+    background:#333;
+    border-radius: 90px;
+    opacity: 0.9;
+    padding: 30px;
+    
+}
+#showcase .row{
+    height: 600px;
+}
+
+/*SHOWCASE STYLE GOES HERE*/
+
+/*FEATURED STYLE GOES HERE*/
+
+#featured h2{
+    font-size: 2em;
+}
+
+#featured h4, #company h4{
+    font-weight: 600;
+    font-size: 1.5em
+}
+
+#featured p{
+    font-size: 20px;
+    padding-bottom: 40px;
+    
+}
+#featured i{
+    font-size: 4em;
+    color: #8fc49a;
+    
+}
+
+/*SHOWCASE STYLE GOES HERE*/
+
+
+/*INFO STYLE GOES HERE*/
+#info{
+    background-image: url(../images/info-bg.jpg);
+    
+}
+section#info .info-list{
+
+    margin-top: 50px;
+    color:white;
+}
+.info-list h2{
+    font-size: 2em;
+    
+}
+.info-list li{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.7em;
+}
+
+.info-list li i{
+    padding-right: 5px;
+ 
+}
+/*INFO SECTION STYLE GOES HERE*/
+
+/*COMPANY SECTION STYLE GOES HERE*/
+
+#company h4{
+    
+    border-bottom: 3px solid #8fc49a;
+    padding-bottom: 30px;
+}
+#company li{
+    padding-bottom: 10px;
+   
+}
+
+#company form input, #page form input{
+   
+    box-sizing: border-box;
+    padding: 0;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #8fc49a;
+    margin-top: 8px;
+}
+
+#company form input[placeholder]{
+    
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    letter-spacing: 3px;
+    
+}
+
+#company button, #page button{
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background: #8fc49a;
+    color: #fff;
+    
+    
+    
+}
+
+/*COMPANY SECTION STYLE GOES HERE*/
+
+#page{
+    margin-top: 50px;
+    
+}
+#page .row{
+    color: #fff;
+    padding-bottom: 30px;
+    background: #333;
+}
+#page form input, #page form textarea{
+    
+    width: 50%;
+}
+
+#page input,{
+    box-sizing: border-box;
+    padding: 0;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #8fc49a;
+
+}
+
+#page textarea{
+    height: 80px;    
+    border: 1px solid #8fc49a;
+    
+}
+/*mediaquery SECTION STYLE GOES HERE*/
+@media(max-width:768px){
+    
+    #showcase h1{
+    color: #fff;
+    font-size: 20px;
+
+}
+    
+    
+    
+}
+
+
+
+/*mediaquery SECTION STYLE GOES HERE*/
+footer{
+    color: #fff;
+/*    height: 70px;*/
+    padding: 30px 0;
+    background: #333;
+    border-top: 3px solid #8fc49a;
+    
+}
